@@ -1,0 +1,64 @@
+So, before I start working on the actual project, I need to plan for what I want the project to be:
+
+- A Keystroke Replayer
+- A Keystroke Loader
+- A Keyboard (using a phone)
+- Multisided (Both USB A & USB C sides can be used for loading & replaying or at the same time (the keyboard))
+- Has to be Very cheap, cause i want to probably buy more later.
+- PC & Android app for payload and live keyboard
+
+Okay, Now I need to figure out what decisions I need to make:
+
+1. what chip
+2. (surprise communication protocol)
+3. what design software
+4. what sdk for app dev
+5. what next
+
+Now, the first thing I researched was the chip:
+
+1. I needed to control 2 usb male modules and these where the choices that came up:-
+
+- RP2040 (the pico chip, very nice and easy to use)
+- ATmega32U4 (what the other hackyduckys use)
+- WCH CH552G (really small but cheap and powerful)
+- ESP32-S2 (has wifi)
+
+Out of all of these, all of them had problems
+
+- RP2040 is 1$ and uses 3v3 which means i had to deal with safeguarding both usb module's 5v as well as convert its output
+- ATmega32U4 is 4$??????? way too expensive
+- ESP32-S2 is 2$ and also 3v3 (idont want to deal w/that), and has wifi (which is good but I want a challenge so no wifi)
+
+And the one I chose is:
+- WCH CH552G is 25 cents, has a built in usb controller, builtin stored memory, uart, spi, all for litterally 25 cents.
+
+BUT, with something this goated always comes a caveat. it only has 1 usb controller.
+
+which is A-okay bcs im just going to slap on 2 of em (they are 25 cents, so cheap, so 2 of em is better than using any other chip)
+
+2. BUT, with 2 chips comes, communication choices, either:
+
+ - spi : (more speed, more data)
+ - uart : (easy to use, 1-2Mbps cap)
+
+I chose uart for now, bcs this chip isnt going to be as easy to program as a pico, which means the communication protocols might be way too advanced, so I will choose the easier one for now: uart.
+
+3. Now I need to decide on design software, I already have experience in fusion 360 from school, but I do want to try out other ones:
+
+ - Fusion 360 (personal exp & school)
+ - EasyEDA (apparently very easy according to online sources)
+ - KiCAD (appaerntly very powerful and the literal stasis devboard starter project picked it)
+
+I chose KiCAD bcs I can just look at how the devboard starter ordered from jclpcb using kiCAD plus I wanted to learn it anyway.
+
+4. Now it is app dev choice time. So i need 2 apps, one mobile for loading payloads & acting as a live keyboard. and another app for loading payloads from pc. choices:-
+
+ - FLUTTER for both!!! build to android, windows, linux!!!! (maybe later on macos and ios if i ever get a mac) (I also have previous experience in flutter from 3 yrs ago)
+ - android studio kotlin/java for android, python for windows (I love python but I hate java)
+ - flutter for android, python for windows (best of both worlds)
+
+I chose flutter for both, bcs i really dont want to swap between programming languages and dart is pretty good, plus I have previous experience, but if the pc app ever becomes too hard, i will switch the pc one to python tkinter or something.
+
+5. So, now, its time to start designing the pcb, which is probably my next journal entry
+
