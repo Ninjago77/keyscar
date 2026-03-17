@@ -1,0 +1,30 @@
+So in the previous journal entry, I planned to start the pcb design,
+ but I do want to make some tiny modifications to the plan
+
+1. firstly, I want to change the connection between the WCH CH552G chips from UART to SPI:
+
+while this may seem pretty risky in terms of both wiring and coding as now I'll have to use bare metal C,
+this is better for a few reasons
+
+ - I get a badge from stasis :D
+ - I can easily use arduino coding libraries using *ch55xduino* and it's built in libraries
+ - FASTER, STRONGER, BETTER, connection & speeds
+ - the wiring isnt that hard:
+
+here's uart:
+![image](https://stasis.hackclub-assets.com/images/1773780701724-qvlqe3.png)
+
+& here's spi:
+![image](https://stasis.hackclub-assets.com/images/1773780816946-115k5s.png)
+
+(only 2 extra communication wires)
+
+2. looking into pcb manufacturing, I've found multiple stuff like 4,2,1 layer pcb manufacturing
+
+However, I've planned to limit myself to only 2 layer pcb at the max:
+
+ - this will make designing it much easier
+ - while 4 layer pcb is a badge, I can't spend time & complexity & more money for a higher risk
+ - the price points for 1 or 2 layer pcb is completely different from a 4 layer pcb.
+
+After this journal entry, I will get back on track to desgining the pcb
