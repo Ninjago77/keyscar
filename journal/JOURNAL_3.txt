@@ -1,0 +1,98 @@
+Before I start working on my project for real on kicad,
+I want to explore & use a reference on another board I found built on the WCH CH552G chip
+
+# Cocket Nova CH552G Dev Board
+![image](https://stasis.hackclub-assets.com/images/1773799862335-toamwf.png)
+
+
+Now I've got the schematic for it:
+![image](https://stasis.hackclub-assets.com/images/1773799539326-zgfb76.png)
+
+So the current plan, is to use the Devboard starter guide as a tutorial for kicad
+and to use the Cocket Nova Dev board as a guide for the wch ch552g chip
+
+Unfortunately, the WCH CH552G chip's isnt available on kicad yet, so I'll have to research for it.
+We got a match: https://componentsearchengine.com/part-view/CH552G/Jiangsu%20Qin%20Heng
+Which didn't really load at all.
+
+We got another match: https://github.com/ihatechoosingusernames/CH552G-Kicad-Footprint
+And this time, we got it in kicad!!!!:
+![image](https://stasis.hackclub-assets.com/images/1773801231022-ympz9s.png)
+
+I also found a pretty good PPT which summarizes the chip's datasheet:
+ - https://altbier.us/ch552g/Intro_to_the_CH552G_Microcontroller.pdf
+
+
+Now, I've gotten started in kicad, setting up the main components,
+
+but there is another problem, when there are 2 usb modules from which power is drawn, i need to prevent backfeeding
+for that I need to use something called a Schottky Diode (1N5817 for this project)
+
+okay I've connected the base components:
+![image](https://stasis.hackclub-assets.com/images/1773804247745-sihtlv.png)
+
+Now I need to add the bootsel buttons for both chips, which i have now:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773805155130-z3yoe4.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773805196365-kqen51.png)
+
+For 'noise suppression', I'm going to add 2 .1uf capacitors to vcc and v33:
+ - ![image](https://stasis.hackclub-assets.com/images/1773806045435-ucr9o7.png)
+
+I also wired the spis from both the master and slave, which was surprisingly easy:
+ - ![image](https://stasis.hackclub-assets.com/images/1773806110999-aqtukb.png)
+
+I also added Reset buttons for both chips, (added 10k resistores even though not required):
+ - ![image](https://stasis.hackclub-assets.com/images/1773806582332-untb22.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773806611450-iakmb3.png)
+
+As of right now, there are 6 pins empty on both master and slave:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773807190147-kebtt9.png)
+
+So I now need to add my switches, based on 4 modes:
+1. EXTRA
+2. LOAD
+3. DEPLOY
+4. DUAL
+
+I also need to add 2 MORE pushbuttonS:
+ - EXEC1
+ - EXEC2
+So I can have some human controlled features.
+
+So to add the switches, I need to look into what are dpdt switches and types of switches.
+My guess, is that I need 2 spdt switches.
+
+I thought I'd also need to add wake buttons for both chips, but I don't need to,
+as they'll both only be in normal power state all the time when connected to usb.
+
+# DO NOT TOUCH P3.1, P3.0, IT HAS TO BE empty (this is a reminder for me, as it is a debug pin)
+
+I've added both switches and both pushbuttons on both the MASTER & SLAVE:
+ - ![image](https://stasis.hackclub-assets.com/images/1773809959015-9vukdb.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773809971354-240irn.png)
+
+I'll also add a neopixel led to each chip.
+I think I also need to add a 330ohm resistor in case for protection.
+
+And here it is (it's basically the same on both master and slave):-
+ - ![image](https://stasis.hackclub-assets.com/images/1773810850156-zof8xb.png)
+
+I do want to add some sort of anolog/digital sensor to the left over pin P1.1,
+so it can do just a little more.
+
+I think a photoresitor, would do a good job, maybe allows for some cover/not cover detection.
+
+Added it to the master chip only.
+ - ![image](https://stasis.hackclub-assets.com/images/1773811592034-wlclif.png)
+
+Here is the current schematic:
+![image](https://stasis.hackclub-assets.com/images/1773811839867-uny2yk.png)
+
+### Additional Double Check for later sessions, make sure that the usb a shield is a usb a male!! (or maybe just put a male footprint on it)
+
+Now before wrapping up this session, I need to decide what to do next,
+that would be to find missing footprints, work on the pcb with the footprints
+organize bill of materials, and then test out distributors for the cheapest price.
+
+Then finally, work on firmware, using ch55xduino library: https://github.com/DeqingSun/ch55xduino
+And also look into what limitations come across by using arduino code instead of bare metal C, as there may be some problems with the RAM/storage.
