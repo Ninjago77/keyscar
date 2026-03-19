@@ -34,10 +34,58 @@ with JCLPCB. So, here are the 2 buttons that I've picked:-
  - EVQP2D02Q for the bootsel and reset buttons
  - K2-6639SP-C4SC-04 for the EXEC buttons
  - K3-1292S-P2 for the spdt switches
- - GT36516 for the photoresistor
+ - GT36549 for the photoresistor
 
 I think at this point, it might be better to add all the components from JCLPCB'S footprint and schematics.
 So, rn this is what It looks like before I redo almost all the symbols:-
  - ![image](https://stasis.hackclub-assets.com/images/1773887428559-ad92x6.png)
 
+Infact, I might just redo all the footprints with the correct ones from JCLPCB,
+so... I have to get the models for footprints that I mentioned above,
+which means, I'll not be using a single kicad alone footprint.
+
+So, onto more part hunting, based on availability & price (JCLPCB Part number):-
+ - C112454 for USB A MALE
+ - C2988371 | GT-USB-8016A for USB C MALE // not using this check down.
+ - C79160 | EVQP2D02Q for the bootsel and reset buttons
+ - C83206 | K2-6639SP-C4SC-04 for the EXEC buttons
+ - C145853 | K3-1292S-P2 for the spdt switches
+ - C2904883 | GT36549 for the photoresistor
+ - C1525 | CL05B104KO5NNNC for the .1uf/ 100nf capacitors
+ - C2479 | SS12 for the schottky diodes
+ - C2843785 | XL-5050RGBC-2812B for the neopixels
+ - C111292 | CH552G for WCH CH552G chip
+ - C25531 | 0402WGJ0103TCE for the 10k ohm resistors
+ - C25905 | 0402WGF5101TCE for the 5.1k ohm resistors
+ - C208984 | RMS04JT330 for the 330 ohm resistors
+
+Now onto the downloading and conversion from easyeda to kicad
+for everysingle one of those footprints.
+
+Maybe... I don't have too....
+I found this plugin https://github.com/CDFER/JLCPCB-Kicad-Library
+ - ![image](https://stasis.hackclub-assets.com/images/1773894029479-nb1cnw.png)
+
+I also think I might have to install this one: https://github.com/Bouni/kicad-jlcpcb-tools
+
+Those get me all the footprints, but I think I also need the symbols, so I must use this:-
+https://pypi.org/project/JLC2KiCadLib/
+and it works beautifully!
+
+While converting my old symbols into the new ones,
+I seem to have into a problem, GT-USB-8016A is a usb c female part
+& I can't seem to find a usb C male part anywhere.
+So as of right now, I'm going to stick with the current symbol as it is pretty descriptive.
+
+FINALLY, it is done:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773900591251-if7w61.png)
+
+Now to move onto the actual pcb design, as I say that, I realize that I need to,
+first upload all the footprints and link them to their 3d models that I got from the pypi script
+then I need to link all the footprints with their symbols.
+
+Which I now have done!, so here is what the pcb looks like rn:
+ - ![image](https://stasis.hackclub-assets.com/images/1773902850256-essmpz.png)
+
+Hope I'll be able to wire it all up next journal entry and figure out the weird usb c male issue.
 
