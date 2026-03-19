@@ -1,0 +1,43 @@
+Now to move on to actually arranging and wiring the pcb along with fetching footprints.
+
+So before that, I ran the ERC (Electrical Rules Checker),
+& I have a lot of pins unassigned, so I'm just tagging them with a passive label.
+
+Turns out I also need to add a 5.1k resistor to GND in the usb c CC pin,
+so that it can recieve power at all.
+I also need to connect the shield pins on both usb a and c to GND,
+
+so that's what i did:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773878340627-l483o8.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773878363917-n50zr3.png)
+
+So... I think all component annotations in kicad need to end with a number,
+so I think I'll have to be renaming stuff for a while.
+I also had to add a bunch of PWR FLAGS everywhere to tell that it is a power source.
+
+Now I don't have any major errors, so time to move on!
+
+The following are the footprints I'm using:
+ - Capacitor SMD:C 0402 1005 Metric
+ - SS12's SMA (I had to swap it out from a tht one, so this is actually smt)
+ - Neopixel SMD:LED WS2812B PLCC4 5.0x5.Omm P3.2mm
+ - USB A Plug: USB_A_Molex_48037-2200_Horizontal
+ - resistors: R_0402_1005Metric
+
+I seem to have run into a problem regarding the buttons,
+I want the bootsel and reset buttons to be incredibly small,
+and the exec buttons to be medium, but finding the footprints for these 
+small buttons (3mmx3mm) is pretty hard. Most always give me 6mm footprints.
+
+So, I think, I have to base my footprints off of the actual parts in stock
+with JCLPCB. So, here are the 2 buttons that I've picked:-
+ - EVQP2D02Q for the bootsel and reset buttons
+ - K2-6639SP-C4SC-04 for the EXEC buttons
+ - K3-1292S-P2 for the spdt switches
+ - GT36516 for the photoresistor
+
+I think at this point, it might be better to add all the components from JCLPCB'S footprint and schematics.
+So, rn this is what It looks like before I redo almost all the symbols:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773887428559-ad92x6.png)
+
+

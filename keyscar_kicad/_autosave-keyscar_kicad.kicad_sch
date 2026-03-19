@@ -1726,7 +1726,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5817"
+		(symbol "Diode:SS12"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1745,7 +1745,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5817"
+			(property "Value" "SS12"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1753,7 +1753,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1762,7 +1762,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1771,7 +1771,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(property "Description" "20V 1A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1789,7 +1789,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1798,7 +1798,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5817_0_1"
+			(symbol "SS12_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1836,7 +1836,7 @@
 					)
 				)
 			)
-			(symbol "1N5817_1_1"
+			(symbol "SS12_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5068,7 +5068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 71.628 90)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 190.5 35.56 0)
 			(effects
 				(font
@@ -5214,6 +5214,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS12")
+		(at 205.74 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14525c05-c355-4556-8e86-98950989dd05")
+		(property "Reference" "D2"
+			(at 208.28 52.3874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS12"
+			(at 208.28 54.9274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 210.185 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Diode, SMA"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "262718be-8fd1-40d0-81ff-4bd46b41c4da")
+		)
+		(pin "2"
+			(uuid "9b2eadce-5b38-423e-9647-5912004394da")
+		)
+		(instances
+			(project "keyscar_kicad"
+				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 93.98 90)
 		(unit 1)
@@ -5239,7 +5309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 95.758 90)
 			(effects
 				(font
@@ -5349,6 +5419,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS12")
+		(at 179.07 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24ab038e-d4b8-4dbf-89f2-69fb3f46ccd1")
+		(property "Reference" "D1"
+			(at 179.3875 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS12"
+			(at 179.3875 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 179.07 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Diode, SMA"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3077148-2046-44f3-9a9b-db4c07cfdc4c")
+		)
+		(pin "2"
+			(uuid "3589ec8e-12f8-4488-a975-8b5de0e11360")
+		)
+		(instances
+			(project "keyscar_kicad"
+				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 95.25 90)
 		(unit 1)
@@ -5443,7 +5581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 135.89 90)
 			(effects
 				(font
@@ -5511,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 82.8548 0)
 			(effects
 				(font
@@ -5940,76 +6078,6 @@
 			(project "keyscar_kicad"
 				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5817")
-		(at 205.74 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46cfb290-c1fd-4369-b8e0-99fe37f220b1")
-		(property "Reference" "D1"
-			(at 208.28 52.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 208.28 54.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 210.185 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 205.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 205.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bc0e7f4-9ff5-457d-90a7-d3bc8dd7496f")
-		)
-		(pin "2"
-			(uuid "6c4803ca-2043-4f20-868a-0903fd4f06f0")
-		)
-		(instances
-			(project "keyscar_kicad"
-				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6576,7 +6644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 24.638 90)
 			(effects
 				(font
@@ -6889,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 24.638 90)
 			(effects
 				(font
@@ -6957,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 94.2848 0)
 			(effects
 				(font
@@ -7027,7 +7095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.438 67.31 90)
 			(effects
 				(font
@@ -7095,7 +7163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 95.758 90)
 			(effects
 				(font
@@ -7229,7 +7297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Molex_48037-2200_Horizontal"
 			(at 168.91 92.71 0)
 			(effects
 				(font
@@ -7578,7 +7646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.288 55.88 90)
 			(effects
 				(font
@@ -7646,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 68.58 90)
 			(effects
 				(font
@@ -7717,7 +7785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.112 60.96 90)
 			(effects
 				(font
@@ -7787,7 +7855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.538 127 90)
 			(effects
 				(font
@@ -7962,73 +8030,6 @@
 			(project "keyscar_kicad"
 				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5817")
-		(at 179.07 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3a0f67b-6f2a-4368-b69c-f932c3a1303c")
-		(property "Reference" "D2"
-			(at 179.3875 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 179.3875 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 179.07 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58cf1652-9279-4d97-9634-a4340b8d9f51")
-		)
-		(pin "1"
-			(uuid "0e1b82ac-f01a-48d3-9013-0009338b4bb3")
-		)
-		(instances
-			(project "keyscar_kicad"
-				(path "/d7e895d6-17a7-4235-9e00-94c466a9150d"
-					(reference "D2")
 					(unit 1)
 				)
 			)
