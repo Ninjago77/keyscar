@@ -562,36 +562,6 @@
 		(layer "F.Paste")
 		(uuid "64a1e6e3-337a-40d1-be0e-c74e39e3913d")
 	)
-	(fp_line
-		(start -4.369977 1.509982)
-		(end -4.369977 12.33998)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "570060c4-15d4-43af-b08a-9df83010e02e")
-	)
-	(fp_line
-		(start 4.430023 1.509982)
-		(end -4.369977 1.509982)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3446844c-b342-4bed-a2b4-1ce49ad73079")
-	)
-	(fp_line
-		(start 4.430023 1.509982)
-		(end 4.430023 12.369977)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "17b7f2cf-2b17-40b2-973e-5171a2bcd8a5")
-	)
 	(fp_circle
 		(center 2.75997 -1.379985)
 		(end 2.860046 -1.379985)

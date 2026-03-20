@@ -1,0 +1,4 @@
+So, rn, I need to fix the edge cuts for the pcb due to the drc errors I keep getting.
+
+After some warnings about overlaps, I had to remove the ege cuts on both usb modules,
+so they would stop screaming at me.

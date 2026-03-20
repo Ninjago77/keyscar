@@ -242,36 +242,6 @@
 		(layer "F.SilkS")
 		(uuid "ac472995-e035-4e91-b24e-df25843f670b")
 	)
-	(fp_line
-		(start -6.32982 3.8)
-		(end 6.370206 3.8)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bcfe0bb5-e2ea-4a58-8962-d17aa2639071")
-	)
-	(fp_line
-		(start -6.32982 3.884277)
-		(end -6.32982 18.783973)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0b32b222-bfc5-4433-b915-09d3d5443173")
-	)
-	(fp_line
-		(start 6.370206 3.884277)
-		(end 6.370206 18.768733)
-		(stroke
-			(width 0.254001)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "43679054-732c-40a0-a35e-3b33297fb658")
-	)
 	(fp_circle
 		(center -2.250064 1)
 		(end -2.000127 1)
