@@ -1,0 +1,41 @@
+So, back to work!
+
+So things to do rn:-
+ - wire the pcb,
+ - swap spdt switches
+ - maybe swap the photoresistor
+
+So, looking through the spdt options, I think a poking out right angle one might work nicely!:-
+ - C125040 | SSSS211603 for the spdt switches
+ - ![image](https://stasis.hackclub-assets.com/images/1773975488131-0o1avl.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773975582885-bh4p2w.png)
+
+So, I've routed mosted of the connections except vcc, v33 and gnd, but alas,
+we come back to the same problem that haunted me before...
+USB C MALE!!
+
+Everywhere I go, its only the Females (not relatable). The male ones cost like 9 dollars a piece:-
+ - C2987386 | TYPE-C-2.0-16PIN-SMT-3
+
+So, with the help of some slack members, I've come to realize that... it is 
+a ok to use usb 3 instead of 2 because it is backwards compatable. 🤦
+
+I knew this before, but I never thought to put into the electronic perspective.
+
+So this is the one I think works:-
+ - C2763095 | 918-118A2021S40003 for the usb c plug
+
+SO, THE ENTIRE THING DONE, other than actual VCC, V33, GND & SILKSCREEN
+
+Now it begins....
+
+And now it ends:-
+ - GND DONE!
+ - V33 DONE!
+ - VCC DONE!
+
+So here:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773992346807-js8fkg.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1773992374233-265lx1.png)
+
+Only thing left now are some errors, touch-ups, silkscreen, then its straight to the kitchen (review)

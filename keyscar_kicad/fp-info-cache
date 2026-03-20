@@ -1,4 +1,4 @@
-27559632270182324
+27563180230436292
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71883,12 +71883,26 @@ SW-SMD_K3-1292S-P2 footprint C145853
 7
 7
 Library
+SW-SMD_SSSS211603
+SW-SMD_SSSS211603 footprint
+SW-SMD_SSSS211603 footprint C125040
+0
+3
+3
+Library
 USB-A-TH_USB-05
 USB-A-TH_USB-05 footprint
 USB-A-TH_USB-05 footprint C112454
 0
 6
 6
+Library
+USB-C-SMD_918-118A2021S40003
+USB-C-SMD_918-118A2021S40003 footprint
+USB-C-SMD_918-118A2021S40003 footprint C2763095
+0
+28
+28
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
