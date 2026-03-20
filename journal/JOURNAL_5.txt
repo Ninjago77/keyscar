@@ -1,0 +1,58 @@
+So now, its time to wire the pcb up,
+I'm hoping for a 1 or 2 layer pcb,
+at the max, I don't want to go beyond a 2 layer one.
+
+So, I seem to realize a sizing problem,
+& I want to see if I can put most components
+on the back of the pcb and leave the i/o on top.
+
+I also got really annoyed at all the big text everywhere,
+so I just shrunk it:- 
+![image](https://stasis.hackclub-assets.com/images/1773959133076-0r9g3w.png)
+
+So I've flipped all the non i/o stuff except for the usb modules:-
+![image](https://stasis.hackclub-assets.com/images/1773959576751-eyrqya.png)
+
+So, I've come to realize that the diodes are way to big....
+So, I'm looking into alternates that have a smaller footprint.
+I think I've found the perfect one, infact, it may be a little better:-
+ - B5817W | C8597 for the Schottky diodes
+From this:
+ - ![image](https://stasis.hackclub-assets.com/images/1773961221450-w3x9oa.png)
+to this:
+ - ![image](https://stasis.hackclub-assets.com/images/1773961308037-xswf22.png)
+
+It's not as small as I'd hoped, but It's an improvement.
+
+So, I'm trying to fit all the components in, but it's really pretty hard.
+
+At the same time, it is pretty cool mirroring a bunch!
+
+So, I think I have 2 do 2 things to save space:-
+ - firstly try to reset using one button instead of 2.
+ - secondly, try to get a smaller photoresitor.
+
+Here is the current progress:
+ - ![image](https://stasis.hackclub-assets.com/images/1773964883497-jtk9la.png)
+
+Using one reset button was actually pretty simple,
+all I had to do was link them, (I also swapped from v33 to vcc):-
+ - ![image](https://stasis.hackclub-assets.com/images/1773965196560-etyd5i.png)
+
+I'm going for an 18mm by 25mm footprint, which is pretty small,
+but I want to make it fit and maximize the potential!!!
+
+The original plan was to make it even smaller so I think this is good.
+
+One more thing I think I must do, is swap the exec buttons from 6mmx6mm
+to 4.5mmx4.5mm, so let me get to work!
+
+I found it!!! The perfect one for exec buttons:-
+ - C294495 | TSA453G50-250 for the exec buttons & it's 4.5mmx4.5mm!!!
+
+So, its been a while & I've made some significant progress!:-
+ - ![image](https://stasis.hackclub-assets.com/images/1773968427838-5f6n46.png)
+But I think I want to swap the spdt switches, they have too many unconnected pads!
+
+Which, I will continue in the next journal entry bcs my timelapse has ended....
+
