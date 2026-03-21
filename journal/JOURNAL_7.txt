@@ -11,11 +11,35 @@ So, I've completed that, done more touchups:-
 ![image](https://stasis.hackclub-assets.com/images/1774049551714-enl3xt.png)
 
 
-Now its time to add the silkscreen, so I got these logos (might be hard to see as they are transparent):
- - ![stasis-logo](https://stasis.hackclub-assets.com/images/1774049641362-qdx2dt.png)
- - ![flag-standalone-wtransparent](https://stasis.hackclub-assets.com/images/1774049648644-3tlrge.png)
+Now its time to add the silkscreen, so I got these logos:-
+ - ![hack_monochrome](https://stasis.hackclub-assets.com/images/1774055467877-2kzdr5.png)
+
+ - ![imageedit_2_4769429485](https://stasis.hackclub-assets.com/images/1774055467935-v0wff0.png)
+
+ - ![imageedit_8_5918140750](https://stasis.hackclub-assets.com/images/1774055479924-2zv1hc.png)
 
 It is done!!!:-
  - ![image](https://stasis.hackclub-assets.com/images/1774051926620-s8n5c1.png)
 
 So now, to export and see how much it costs!
+
+Welp, those rst & boot buttons are actually not in stock at JCLPCB,
+infact, not a single one with the same footprint is in stock:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774054143339-25mdl6.png)
+
+I think I've found a way, I swapped it from 4.7mmx3.5mm to 3.5mmx4.7mm:-
+ - C528967 | EVQP2202M for the rst & boot buttons
+
+I'm going to pray that JCLPCB notices and just rotates to the correct ish footprint.
+
+Okay, the USB C Male also had the same problem, so I found a new one:-
+ - C2763098 | 918-118A2021Y40005 for the usb c male
+
+So I think, I will have to modify the schematic and the pcb again for both of these.
+
+The Price also looks insane, what is going on? 
+The parts on their own are pretty cheap, but Setup is 50 $$???
+
+I have to swap components and work out the price issue next journal entry.
+
+
