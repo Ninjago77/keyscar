@@ -4,3 +4,41 @@ Time to continue with swapping parts!
 
 After a bunch more silkscreen sufferings, here it is:-
  - ![image](https://stasis.hackclub-assets.com/images/1774073389490-xmf0w3.png)
+
+
+Let's GOOO!
+
+After so much suffering, it is here and its lookin good:-
+![image](https://stasis.hackclub-assets.com/images/1774074695828-a6ptgk.png)
+![image](https://stasis.hackclub-assets.com/images/1774074705583-bjtmt8.png)
+
+Here is the finalish BOM:-
+ - C2843785 | XL-5050RGBC-2812B for the neopixels
+ - C111292 | CH552G for WCH CH552G chip
+ - C25531 | 0402WGJ0103TCE for the 10k ohm resistors
+ - C25905 | 0402WGF5101TCE for the 5.1k ohm resistors
+ - C208984 | RMS04JT330 for the 330 ohm resistors
+ - C2904883 | GT36549 for the photoresistor
+ - C1525 | CL05B104KO5NNNC for the .1uf/ 100nf capacitors
+ - USB C MALE: C2763098 | 918-118A2021Y40005
+ - Reset, Boot Buttons: C528967 | EVQP2202M
+ - C125040 | SSSS211603 for the spdt switches
+ - C294495 | TSA453G50-250 for the exec buttons
+ - C112454 for USB A MALE
+ - B5817W | C8597 for the Schottky diodes
+
+What is this pricing:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774075390965-a72kkl.png)
+
+Now, we are talking with JCLPCB Support, to hopefully get a better quote.
+
+So.... I've found the problem, I picked Standard PCBA, because it had double-sided SMD 
+assembly, but economic only has one side....
+
+Economic PCBA would solve all my problems :(
+
+Which means I have to rewire the entire pcb until its all on one side!. 
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+
+
