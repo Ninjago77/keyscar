@@ -1,4 +1,4 @@
-27568502663574673
+27572050973040658
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71883,6 +71883,13 @@ SW-SMD_K3-1292S-P2 footprint C145853
 7
 7
 Library
+SW-SMD_L4.7-W3.5-P2.00-LS5.2_EVQP2202M
+SW-SMD_L4.7-W3.5-P2.00-LS5.2_EVQP2202M footprint
+SW-SMD_L4.7-W3.5-P2.00-LS5.2_EVQP2202M footprint C528967
+0
+4
+4
+Library
 SW-SMD_SSSS211603
 SW-SMD_SSSS211603 footprint
 SW-SMD_SSSS211603 footprint C125040
@@ -71900,6 +71907,13 @@ Library
 USB-C-SMD_918-118A2021S40003
 USB-C-SMD_918-118A2021S40003 footprint
 USB-C-SMD_918-118A2021S40003 footprint C2763095
+0
+28
+28
+Library
+USB-C-SMD_918-118A2021Y40005
+USB-C-SMD_918-118A2021Y40005 footprint
+USB-C-SMD_918-118A2021Y40005 footprint C2763098
 0
 28
 28

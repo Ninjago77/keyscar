@@ -1,0 +1,6 @@
+Time to continue with swapping parts!
+ - USB C MALE: C2763098 | 918-118A2021Y40005
+ - Reset, Boot Buttons: C528967 | EVQP2202M
+
+After a bunch more silkscreen sufferings, here it is:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774073389490-xmf0w3.png)
