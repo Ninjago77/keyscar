@@ -2,3 +2,20 @@ So, rn, I need to fix the edge cuts for the pcb due to the drc errors I keep get
 
 After some warnings about overlaps, I had to remove the ege cuts on both usb modules,
 so they would stop screaming at me.
+
+I think, I have to now go through every single footprint and remove the silkscreen
+this is going to be pain.
+
+So, I've completed that, done more touchups:-
+
+![image](https://stasis.hackclub-assets.com/images/1774049551714-enl3xt.png)
+
+
+Now its time to add the silkscreen, so I got these logos (might be hard to see as they are transparent):
+ - ![stasis-logo](https://stasis.hackclub-assets.com/images/1774049641362-qdx2dt.png)
+ - ![flag-standalone-wtransparent](https://stasis.hackclub-assets.com/images/1774049648644-3tlrge.png)
+
+It is done!!!:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774051926620-s8n5c1.png)
+
+So now, to export and see how much it costs!
