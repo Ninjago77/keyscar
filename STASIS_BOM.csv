@@ -1,0 +1,23 @@
+NAME,PURPOSE,QUANTITY,TOTAL COST (USD),LINK,DISTRIBUTOR
+CL05B104KO5NNNC (100nF Capacitor),Capacitor,20,0.026,https://jlcpcb.com/partdetail/C1525,JLCPCB
+B5817W,Diode,14,0.5852,https://jlcpcb.com/partdetail/C8597,JLCPCB
+XL-5050RGBC-2812B,RGB LED,14,0.7504,https://jlcpcb.com/partdetail/C2843785,JLCPCB
+0402WGJ0103TCE (10k Resistor),Resistor,42,0.0294,https://jlcpcb.com/partdetail/C25531,JLCPCB
+RMS04JT330 (33 ohm Resistor),Resistor,20,0.032,https://jlcpcb.com/partdetail/C208984,JLCPCB
+0402WGF5101TCE (5.1k Resistor),Resistor,20,0.016,https://jlcpcb.com/partdetail/C25905,JLCPCB
+GT36549,Photoresistor / Sensor,5,0.9415,https://jlcpcb.com/partdetail/C2904883,JLCPCB
+CH552G,Microcontroller,10,4.616,https://jlcpcb.com/partdetail/C111292,JLCPCB
+SSSS211603,Slide Switch,10,3.889,https://jlcpcb.com/partdetail/C125040,JLCPCB
+TSA453G50-250,Tactile Switch,15,0.435,https://jlcpcb.com/partdetail/C294495,JLCPCB
+EVQP2202M,Tactile Switch,15,4.6245,https://jlcpcb.com/partdetail/C528967,JLCPCB
+USB-05,USB-A Male Connector,5,0.3885,https://jlcpcb.com/partdetail/C112454,JLCPCB
+918-118A2021Y40005,USB-C Male Connector,5,2.221,https://jlcpcb.com/partdetail/C2763098,JLCPCB
+PCB: Special Offer,PCB Manufacturing,1,4,https://jlcpcb.com,JLCPCB
+Standard PCBA: Setup Fee,PCB Assembly,1,50.74,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: Stencil,PCB Assembly,1,16.3,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: Feeders Loading fee,PCB Assembly,1,18.24,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: SMT Assembly,PCB Assembly,1,1.2,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: Hand-soldering labor fee,PCB Assembly,1,3.55,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: Manual Assembly,PCB Assembly,1,0.49,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: PCB assembly fixture,PCB Assembly,1,16.3,https://cart.jlcpcb.com/smt-order,JLCPCB
+Standard PCBA: Packaging fee,PCB Assembly,1,0.49,https://cart.jlcpcb.com/smt-order,JLCPCB

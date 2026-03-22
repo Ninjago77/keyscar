@@ -1,0 +1,20 @@
+I think, for now, I will submit the project as a tier 4 with the double-sided smd assembly.
+
+So here are the front and back images from JCLPCB:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774139955214-qtn9er.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1774139965224-4un1bt.png)
+
+
+And if this, along with my firmware based application, doesnt qualify for tier 4, then I'll redo the entire pcb as one
+sided even though it defeats the purpose of it.
+
+Here are the order screenshots:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774142191284-b152s1.png)
+ - ![image](https://stasis.hackclub-assets.com/images/1774142203089-8wezej.png)
+
+Here is the BOM CSV:-
+ - ![image](https://stasis.hackclub-assets.com/images/1774142585856-uz5znl.png)
+
+hopefully this goes through!
+
+
